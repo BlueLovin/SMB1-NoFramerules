@@ -10461,7 +10461,7 @@ RunStarFlagObj:
       jsr JumpEngine           ;otherwise jump to appropriate sub
       
       .dw StarFlagExit
-      .dw GameTimerFireworks
+      .dw IncrementSFTask1
       .dw AwardGameTimerPoints
       .dw RaiseFlagSetoffFWorks
       .dw DelayToAreaEnd
